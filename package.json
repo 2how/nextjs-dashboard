@@ -28,12 +28,7 @@
     "@types/react": "19.0.7",
     "@types/react-dom": "19.0.3"
   },
-  "pnpm": {
-    "ignoredBuiltDependencies": [
-      "bcrypt",
-      "bcrypt",
-      "sharp",
-      "sharp"
-    ]
+"pnpm": {
+    "onlyBuiltDependencies": ["bcrypt"]
   }
 }
